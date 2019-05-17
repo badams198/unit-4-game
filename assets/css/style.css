@@ -25,3 +25,21 @@ div.row {
     border-bottom: 1px solid;
         /*text-align: center;*/
 }
+div.char { 
+    /*border: 1px solid;*/
+    /*border-bottom: 0px;*/
+    text-align: center;
+  }
+  .container div.char:last-child {
+    border-bottom: 1px solid;
+    /*text-align: center;-->*/
+  }
+  #p {
+    background-image :url('background.jpg');
+    background-size: contain;                   /* <------ */
+    background-repeat:   no-repeat;
+    height: 440px;
+    width: 240px;
+    color: white;
+    font-size: 20px;
+  }
