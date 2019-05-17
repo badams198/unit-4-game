@@ -4,6 +4,7 @@ div.container {
     /*border: 1px solid;
     border-bottom: 0px;*/
     text-align: center;
+    background-color: black;
   }
 
 .container:last-child {
@@ -39,9 +40,29 @@ div.char {
     border-bottom: 1px solid;
     /*text-align: center;-->*/
   }
-  div.button {
-      background-color: black;      
+  #row.button:hover {
+    border: 7px solid red;      
   }
+  #select3{
+    background-image :url('../images/Pselect.png');
+    background-color: black;
+    background-size: 60%;         
+    background-position:center;          /* <------ */
+    background-repeat:   no-repeat;
+    height: 90px;
+    width: 90x;   
+  }
+  #logo{
+    background-image :url('../images/logo2.png');
+    background-color: black;
+    background-size: 50%;         
+    background-position:center;          /* <------ */
+    background-repeat:   no-repeat;
+    height: 200px;
+    width: 200x;   
+  }
+  
+  
   /*------------------------Character Select styles---------------------------*/
   #p {
     background-image :url('../images/background.jpg');
@@ -63,11 +84,10 @@ div.char {
     color: green;
     background-color: black;
     font-size: 15px;
-    
     text-align: left;  
   }
   #Ryu:hover {
-    border: 10px solid #008CBA;
+    border: 7px solid red;
   }
   #Dj {
     background-color: black;
@@ -77,12 +97,12 @@ div.char {
     background-repeat:   no-repeat;
     height: 171px;
     width: 0px;
-    color: green;
-    
-    font-size: 15px;
-    
-    text-align: right;
-    
+    color: green;  
+    font-size: 15px;   
+    text-align: right;   
+  }
+  #Dj:hover {
+    border: 7px solid red;
   }
   #Chunli {
     background-image :url('../images/Chunli.jpg');
@@ -93,9 +113,11 @@ div.char {
     width: 0px;
     color: green;
     background-color: black;
-    font-size: 15px;
-    
+    font-size: 15px;  
     text-align: left;
+  }
+  #Chunli:hover {
+    border: 7px solid red;
   }
   #Fei {
     background-image :url('../images/Feilong.jpg');
@@ -107,8 +129,10 @@ div.char {
     color: green;
     background-color: black;
     font-size: 15px;
-    
     text-align: right;
+  }
+  #Fei:hover {
+    border: 7px solid red;
   }
   #Bison {
     background-image :url('../images/Bison.jpg');
@@ -119,10 +143,11 @@ div.char {
     width: 0px;
     color: green;
     background-color: black;
-    font-size: 15px;
-    
-    text-align: left;
-    
+    font-size: 15px; 
+    text-align: left;  
+  }
+  #Bison:hover {
+    border: 7px solid red;
   }
   #Akuma {
     background-image :url('../images/Akuma.jpg');
@@ -133,11 +158,11 @@ div.char {
     width: 0px;
     color: green;
     background-color: black;
-    font-size: 15px;
-    
-    text-align: right;
-    
-    
+    font-size: 15px; 
+    text-align: right;  
+  }
+  #Akuma:hover {
+    border: 7px solid red;
   }
   #Sagat {
     background-image :url('../images/Sagat.jpg');
@@ -148,10 +173,11 @@ div.char {
     width: 0px;
     color: green;
     background-color: black;
-    font-size: 15px;
-    
-    text-align: left;
-    
+    font-size: 15px; 
+    text-align: left;  
+  }
+  #Sagat:hover {
+    border: 7px solid red;
   }
   #Vega {
     background-image :url('../images/Vega.jpg');
@@ -163,6 +189,8 @@ div.char {
     color: green;
     background-color: black;
     font-size: 15px;
-    
     text-align: right;
+  }
+  #Vega:hover {
+    border: 7px solid red;
   }
