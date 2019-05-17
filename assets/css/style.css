@@ -1,0 +1,27 @@
+div.container { 
+    border: 1px solid;
+    border-bottom: 0px;
+    text-align: center;
+  }
+
+.container:last-child {
+  border-bottom: 1px solid;
+  /*text-align: center;-->*/
+}
+div.row { 
+    border: 1px solid;
+    border-bottom: 0px;
+    text-align: center;
+  }
+  .container div.row:last-child {
+    border-bottom: 1px solid;
+    /*text-align: center;-->*/
+  }
+  div.col { 
+    border: 1px solid;
+    border-bottom: 0px;}
+    text-align: center;
+.container div.col:last-child {
+    border-bottom: 1px solid;
+        /*text-align: center;*/
+}
