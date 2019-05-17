@@ -1,6 +1,8 @@
+
+  
 div.container { 
-    border: 1px solid;
-    border-bottom: 0px;
+    /*border: 1px solid;
+    border-bottom: 0px;*/
     text-align: center;
   }
 
@@ -12,6 +14,8 @@ div.row {
     border: 1px solid;
     border-bottom: 0px;
     text-align: center;
+    /*width:267px;
+    height:344px;*/
   }
   .container div.row:last-child {
     border-bottom: 1px solid;
@@ -20,7 +24,7 @@ div.row {
   div.col { 
     border: 1px solid;
     border-bottom: 0px;}
-    text-align: center;
+    
 .container div.col:last-child {
     border-bottom: 1px solid;
         /*text-align: center;*/
@@ -29,17 +33,136 @@ div.char {
     /*border: 1px solid;*/
     /*border-bottom: 0px;*/
     text-align: center;
+    background-color: black
   }
   .container div.char:last-child {
     border-bottom: 1px solid;
     /*text-align: center;-->*/
   }
+  div.button {
+      background-color: black;      
+  }
+  /*------------------------Character Select styles---------------------------*/
   #p {
-    background-image :url('background.jpg');
-    background-size: contain;                   /* <------ */
+    background-image :url('../images/background.jpg');
+    background-size: contain;         
+    background-position:center;          /* <------ */
     background-repeat:   no-repeat;
     height: 440px;
     width: 240px;
     color: white;
     font-size: 20px;
+  }
+  #Ryu {
+    background-image :url('../images/Ryu3.jpg');
+    background-size: contain;
+    background-position:right;                   /* <------ */
+    background-repeat:   no-repeat;
+    height: 171px;
+    width: 0px;
+    color: green;
+    background-color: black;
+    font-size: 15px;
+    
+    text-align: left;  
+  }
+  #Ryu:hover {
+    border: 10px solid #008CBA;
+  }
+  #Dj {
+    background-color: black;
+    background-image :url('../images/Dj.jpg');
+    background-size: contain;
+    background-position:left;                   /* <------ */
+    background-repeat:   no-repeat;
+    height: 171px;
+    width: 0px;
+    color: green;
+    
+    font-size: 15px;
+    
+    text-align: right;
+    
+  }
+  #Chunli {
+    background-image :url('../images/Chunli.jpg');
+    background-size: contain;
+    background-position:right;                   /* <------ */
+    background-repeat:   no-repeat;
+    height: 171px;
+    width: 0px;
+    color: green;
+    background-color: black;
+    font-size: 15px;
+    
+    text-align: left;
+  }
+  #Fei {
+    background-image :url('../images/Feilong.jpg');
+    background-size: contain;
+    background-position:left;                   /* <------ */
+    background-repeat:   no-repeat;
+    height: 171px;
+    width: 0px;
+    color: green;
+    background-color: black;
+    font-size: 15px;
+    
+    text-align: right;
+  }
+  #Bison {
+    background-image :url('../images/Bison.jpg');
+    background-size: contain;
+    background-position:right;                   /* <------ */
+    background-repeat:   no-repeat;
+    height: 171px;
+    width: 0px;
+    color: green;
+    background-color: black;
+    font-size: 15px;
+    
+    text-align: left;
+    
+  }
+  #Akuma {
+    background-image :url('../images/Akuma.jpg');
+    background-size: contain;
+    background-position:left;                   /* <------ */
+    background-repeat:   no-repeat;
+    height: 171px;
+    width: 0px;
+    color: green;
+    background-color: black;
+    font-size: 15px;
+    
+    text-align: right;
+    
+    
+  }
+  #Sagat {
+    background-image :url('../images/Sagat.jpg');
+    background-size: contain;
+    background-position:right;                   /* <------ */
+    background-repeat:   no-repeat;
+    height: 171px;
+    width: 0px;
+    color: green;
+    background-color: black;
+    font-size: 15px;
+    
+    text-align: left;
+    
+  }
+  #Vega {
+    background-image :url('../images/Vega.jpg');
+    background-size: contain;
+    background-position:left;                   /* <------ */
+    background-repeat:   no-repeat;
+    height: 171px;
+    width: 0px;
+    color: green;
+    background-color: black;
+    font-size: 15px;
+    
+    text-align: right;
   }
