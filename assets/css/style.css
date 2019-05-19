@@ -12,7 +12,7 @@ div.container {
   /*text-align: center;-->*/
 }
 div.row { 
-    border: 1px solid;
+    /*border: 1px solid;
     border-bottom: 0px;
     text-align: center;
     /*width:267px;
@@ -23,7 +23,7 @@ div.row {
     /*text-align: center;-->*/
   }
   div.col { 
-    border: 1px solid;
+    /*border: 1px solid;
     border-bottom: 0px;}
     
 .container div.col:last-child {
@@ -71,8 +71,58 @@ div.char {
     background-repeat:   no-repeat;
     height: 440px;
     width: 240px;
-    color: white;
+    color:rgba(0, 0, 0, 0);
     font-size: 20px;
+    text:hidden;
+  }
+  #show{
+      text-align: right;
+      color: white;
+  }
+  #show2{
+    text-align: left;
+    color: white;
+}
+#attack{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  position: relative;
+  left: 400px;
+  text-align:right;
+  text-decoration: none;
+  display: inline;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+  #p1 {
+    
+    position:relative;
+    right:-450px;
+    object-fit:contain;
+    background-position:right bottom;                   /* <------ */
+    background-repeat:   no-repeat;
+    height: 45%;
+    width: 45%;
+    color: green;
+    font-size: 15px;
+      
+  }
+  #p2 {
+    position: relative;
+    left: -50px;
+    object-fit: contain;
+    background-position:right bottom;                   /* <------ */
+    background-repeat:   no-repeat;
+    transform: scaleX(-1);
+    height: 43%;
+    width: 43%;
+    color: green;
+    
+    font-size: 15px;
+    text-align: right;  
   }
   #Ryu {
     background-image :url('../images/Ryu3.jpg');

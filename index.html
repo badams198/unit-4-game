@@ -9,8 +9,11 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="assets/css/style.css" media="screen">
+
+       
     </head>
     <body>
             <div class="container">
@@ -24,27 +27,61 @@
                         <p id="select3">Character Select</p>
                         <div class="char">
                                 <div class="row">
-                                  <button id="Ryu" class="col">Ryu<br>HP:120</button>
-                                  <button id="Dj"class="col">DeeJay<br>HP:130</button>
+                                  <button id="Ryu" class="col ryu">Ryu<br>HP:120</button>
+                                  <button id="Dj"class="col dj">DeeJay<br>HP:130</button>
                                   
-                                  <button id="Chunli"class="col">ChunLi<br>HP:100</button>
-                                  <button id="Fei"class="col">Feilong<br>HP:150</button>
+                                  <button id="Chunli"class="col chunli">ChunLi<br>HP:100</button>
+                                  <button id="Fei"class="col fei">Feilong<br>HP:150</button>
                                 </div>
                               </div>
                       
                                 <div class="row">
-                                  <button id="Bison" class="col">Bison<br>HP:230</button>
-                                  <button id="Akuma"class="col">Akuma<br>HP:300</button>
+                                  <button id="Bison" class="col bison">Bison<br>HP:230</button>
+                                  <button id="Akuma"class="col akuma">Akuma<br>HP:300</button>
                                   
-                                  <button id="Sagat"class="col">Sagat<br>HP:190</button>
-                                  <button id="Vega"class="col">Vega<br>HP:175</button>
+                                  <button id="Sagat"class="col sagat">Sagat<br>HP:190</button>
+                                  <button id="Vega"class="col vega">Vega<br>HP:175</button>
                                 </div>
                               </div>
                       </div>
                     </div>
                     <!--<div class="container">-->
                             <div class="row">
-                                <div id="p" class="col" >Defender Area</div>
+                                
+                                <div id="p" class="col" >Defender Area
+                                        
+                                                <div class="row hide">
+                                                  <div class="col">col</div>
+                                                  <div class="col">col</div>
+                                                  <div class="w-100"></div>
+                                                  <div class="col">col</div>
+                                                  <div class="col">col</div>
+                                                  <div class="w-100"></div>
+                                                  <div class="col">col</div>
+                                                  <div class="col">col</div>
+                                                  <div class="w-100"></div>
+                                                  <div class="col">col</div>
+                                                  <div class="col">col</div>
+                                                  <div class="w-100"></div>
+                                                  <div class="row">
+                                                  <div class="col">col</div>
+                                                  <button id="attack" div class="btn btn-primary number">Attack</button>
+                                                  </div>
+                                                  <div class="w-100"></div>
+                                                  <div class="col" id="show"></div>
+                                                  <div class="col" id="show2"></div>
+                                                  <div class="w-100"></div>
+                                                  <div class="col" id="Player1">
+                                                        <img id="p1" src="" alt="" class="img player-one">
+                                                  </div>
+                                                  <div class="col"id="Player2">
+                                                        <img id="p2" src="" alt="" class="img player-two">
+                                                  </div>
+                                                </div>
+                                              
+
+                                </div>
+                                
                             <!--</div>-->
                     </div>
                   </div>
@@ -55,6 +92,7 @@
                         </div>
                    </div>
                 </div>
+        <script src="assets/javascript/game.js" type="text/javascript"></script>        
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     </body>
